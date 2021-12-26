@@ -278,7 +278,7 @@ if(__name__=="__main__"):
     print("Initial movements")
     for x in m:
         print(x)
-        cube.rotate_90(x[0],x[1],-x[2])
+        cube.rotate_90(x[0],x[1],x[2])
     print("Close the figure to start!!")
     cube.plot()
 
